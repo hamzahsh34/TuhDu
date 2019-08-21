@@ -16,7 +16,7 @@ class ToDoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Persist data with UserDefaults method
+        // Persist data with UserDefaults methods
         
         if let items = defaults.array(forKey: "TodoListArray") as? [String] {
             itemArray = items
@@ -62,6 +62,7 @@ class ToDoListViewController: UITableViewController {
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
             // what occurs when user hits add button
             self.itemArray.append(textField.text!)
+            // UserDefaults
             self.defaults.set(self.itemArray, forKey: "TodoListArray")
             self.tableView.reloadData()
         }
