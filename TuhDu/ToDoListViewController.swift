@@ -16,7 +16,7 @@ class ToDoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Persist data with UserDefaults methods
+        // Persist data with UserDefaults method
         
         if let items = defaults.array(forKey: "TodoListArray") as? [String] {
             itemArray = items
