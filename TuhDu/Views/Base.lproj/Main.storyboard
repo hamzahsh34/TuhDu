@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="793" y="134"/>
         </scene>
-        <!--Items-->
+        <!--Tuhdo-->
         <scene sceneID="cig-LN-vyi">
             <objects>
                 <tableViewController id="eqZ-Jt-Ilj" customClass="ToDoListViewController" customModule="TuhDu" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                             <outlet property="delegate" destination="eqZ-Jt-Ilj" id="OSN-fL-Et8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Items" id="kXR-xd-oNt">
+                    <navigationItem key="navigationItem" title="Tuhdo" id="kXR-xd-oNt">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Evh-bO-aIS">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>

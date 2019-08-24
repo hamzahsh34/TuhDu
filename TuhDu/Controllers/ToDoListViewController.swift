@@ -114,7 +114,8 @@ class ToDoListViewController: UITableViewController {
     }
 }
 
-// Mark: - SearchBar methods
+//MARK: - SearchBar methods
+
 extension ToDoListViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
