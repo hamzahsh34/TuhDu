@@ -55,3 +55,4 @@ class SwipeTableViewController: UITableViewController, SwipeTableViewCellDelegat
         print("deleted")
     }
 }
+
