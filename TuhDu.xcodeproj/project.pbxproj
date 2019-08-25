@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		480DA679230F88D8006BE3EA /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480DA678230F88D8006BE3EA /* CategoryViewController.swift */; };
+		481B97A12312074E00CE3ABA /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481B97A02312074E00CE3ABA /* SwipeTableViewController.swift */; };
 		48656CDF230CC9760064112F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48656CDE230CC9760064112F /* AppDelegate.swift */; };
 		48656CE1230CC9760064112F /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48656CE0230CC9760064112F /* ToDoListViewController.swift */; };
 		48656CE4230CC9760064112F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48656CE2230CC9760064112F /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		24553D81049A4544DB719A13 /* Pods-TuhDu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuhDu.release.xcconfig"; path = "Target Support Files/Pods-TuhDu/Pods-TuhDu.release.xcconfig"; sourceTree = "<group>"; };
 		480DA678230F88D8006BE3EA /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		481B97A02312074E00CE3ABA /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		48656CDB230CC9760064112F /* TuhDu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuhDu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48656CDE230CC9760064112F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48656CE0230CC9760064112F /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				480DA678230F88D8006BE3EA /* CategoryViewController.swift */,
 				48656CE0230CC9760064112F /* ToDoListViewController.swift */,
+				481B97A02312074E00CE3ABA /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				480DA679230F88D8006BE3EA /* CategoryViewController.swift in Sources */,
 				48656CE1230CC9760064112F /* ToDoListViewController.swift in Sources */,
 				48656CDF230CC9760064112F /* AppDelegate.swift in Sources */,
+				481B97A12312074E00CE3ABA /* SwipeTableViewController.swift in Sources */,
 				489EB59F2310C48D00477FED /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
