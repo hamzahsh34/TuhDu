@@ -1,2 +1,3 @@
 # TuhDu
-* todo readme
+
+A note taking app with a Realm backend
